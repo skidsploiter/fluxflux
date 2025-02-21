@@ -1,5 +1,7 @@
+print("[ FLUX ] Started loading: " .. os.date("%Y-%m-%d %H:%M:%S"))
+
 --[[
-  // Flux Environment
+  // Flux Loader
   // Made by the Flux devs.
   // (most of it was made by raz <3)
   // If you use this and don't credit us, we can DMCA you.
@@ -645,4 +647,5 @@ end)
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheBestSkibidiCoder/BestUtilityFlux/refs/heads/main/fluxfluxfluxfluxfluxfluxflux'))()
 
-print("[ Flux Debug ] Script successfully executed!")
+print("[ FLUX ] Script successfully executed!")
+print("[ FLUX ] Finished at: ".. os.date("%Y-%m-%d %H:%M:%S"))
